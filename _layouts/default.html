@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+
+<body class="">
+    <div id="wrapper">
+      {% include header.html %}
+      {% include banner.html %}
+
+
+      {{ content | expand_urls: root_url }}
+
+    {% include footer.html %}
+    {% include contact.html %}
+    </div>
+  {% include nav.html %}
+  {% include footer_scripts.html %}
+
+</body>
+
+</html>
