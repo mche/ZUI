@@ -154,7 +154,7 @@
             window.location.href = href;
         }, 250);
     });
-    $menu.appendTo($body).on('click', function(event) {
+    $menu/*.appendTo($body)*/.on('click', function(event) {
         event.stopPropagation();
         event.preventDefault();
         $body.removeClass('is-menu-visible');
