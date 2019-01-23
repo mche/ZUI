@@ -123,7 +123,7 @@
     });
     var $menu = $('#menu'),
         $menuInner;
-    $menu.wrapInner('<div class="inner"></div>');
+    ///$menu.wrapInner('<div class="inner"></div>');
     $menuInner = $menu.children('.inner');
     $menu._locked = false;
     $menu._lock = function() {
