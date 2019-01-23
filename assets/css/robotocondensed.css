@@ -1,36 +1,36 @@
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url('/static/fonts/Robotocondensedlight.woff2') format('woff2'), url('/static/fonts/Robotocondensedlight.woff') format('woff'), url('/static/fonts/Robotocondensedlight.ttf') format('truetype');
+    src: /*local('Roboto Condensed Light'), local('RobotoCondensed-Light'),*/ url('/static/fonts/Robotocondensedlight.woff2') format('woff2'), url('/static/fonts/Robotocondensedlight.woff') format('woff'), url('/static/fonts/Robotocondensedlight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url('/static/fonts/Robotocondensedlightitalic.woff2') format('woff2'), url('/static/fonts/Robotocondensedlightitalic.woff') format('woff'), url('/static/fonts/Robotocondensedlightitalic.ttf') format('truetype');
+    src: /*local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'),*/ url('/static/fonts/Robotocondensedlightitalic.woff2') format('woff2'), url('/static/fonts/Robotocondensedlightitalic.woff') format('woff'), url('/static/fonts/Robotocondensedlightitalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url('/static/fonts/Robotocondensed.woff2') format('woff2'), url('/static/fonts/Robotocondensed.woff') format('woff'), url('/static/fonts/Robotocondensed.ttf') format('truetype');
+    src: /*local('Roboto Condensed'), local('RobotoCondensed-Regular'),*/ url('/static/fonts/Robotocondensed.woff2') format('woff2'), url('/static/fonts/Robotocondensed.woff') format('woff'), url('/static/fonts/Robotocondensed.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url('/static/fonts/Robotocondenseditalic.woff2') format('woff2'), url('/static/fonts/Robotocondenseditalic.woff') format('woff'), url('/static/fonts/Robotocondenseditalic.ttf') format('truetype');
+    src: /*local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'),*/ url('/static/fonts/Robotocondenseditalic.woff2') format('woff2'), url('/static/fonts/Robotocondenseditalic.woff') format('woff'), url('/static/fonts/Robotocondenseditalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url('/static/fonts/Robotocondensedbold.woff2') format('woff2'), url('/static/fonts/Robotocondensedbold.woff') format('woff'), url('/static/fonts/Robotocondensedbold.ttf') format('truetype');
+    src: /*local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),*/ url('/static/fonts/Robotocondensedbold.woff2') format('woff2'), url('/static/fonts/Robotocondensedbold.woff') format('woff'), url('/static/fonts/Robotocondensedbold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Roboto Condensed';
-    src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url('/static/fonts/Robotocondensedbolditalic.woff2') format('woff2'), url('/static/fonts/Robotocondensedbolditalic.woff') format('woff'), url('/static/fonts/Robotocondensedbolditalic.ttf') format('truetype');
+    src: /*local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'),*/ url('/static/fonts/Robotocondensedbolditalic.woff2') format('woff2'), url('/static/fonts/Robotocondensedbolditalic.woff') format('woff'), url('/static/fonts/Robotocondensedbolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
