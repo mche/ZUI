@@ -3079,10 +3079,10 @@ body.is-preload #header.alt {
     -ms-align-items: center;
     align-items: center;
     background-image: url("/static/images/banner.jpg");
-    display: -moz-flex;
+    /*display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
-    display: flex;
+    display: flex;*/
     padding: 6em 0 2em 0;
     background-attachment: fixed;
     background-position: center;
@@ -3113,7 +3113,7 @@ body.is-preload #header.alt {
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.85;
+    opacity: 0.55;
     position: absolute;
     top: 0;
     width: 100%;
@@ -3180,8 +3180,8 @@ body.is-preload #header.alt {
 
 #banner.major {
     height: 75vh;
-    min-height: 30em;
-    max-height: 50em;
+    /*min-height: 30em;
+    max-height: 50em;*/
 }
 
 #banner.major.alt {
