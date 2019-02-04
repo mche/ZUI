@@ -69,9 +69,10 @@
             $link = $this.find('.link'),
             x;
         $this.css('background-image', 'url(' + $img.attr('src') + ')');
-        if (x = $img.data('position')) $image.css('background-position', x);
+        //~ if (x = $img.data('position')) $image.css('background-position', x);
         $image.hide();
-        if ($link.length > 0) { /*$x = $link.clone().text('').addClass('primary').appendTo($this);$link = $link.add($x);*/
+        if ($link.length > 0) { 
+            $link.clone().text('').addClass('primary').appendTo($this);///$link = $link.add($x);
             $link.on('click', function(event) {
                 var href = $link.attr('href');
                 event.stopPropagation();
