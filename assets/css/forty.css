@@ -2517,9 +2517,9 @@ button:disabled,
   z-index: 3;
 }
 
-/*.tiles article h3 {
-  font-size: 3rem;
-}*/
+.tiles article h3 {
+  font-size: 2.5rem;
+}
 
 
 .tiles article .link.primary {
