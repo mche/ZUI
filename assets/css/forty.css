@@ -2517,9 +2517,9 @@ button:disabled,
   z-index: 3;
 }
 
-.tiles article h3 {
+/*.tiles article h3 {
   font-size: 3rem;
-}
+}*/
 
 
 .tiles article .link.primary {
@@ -2626,7 +2626,7 @@ button:disabled,
     min-height: 20em;
   }
   .tiles article h3 {
-    font-size: 3em;
+    font-size: 2.5rem;
   }
 }
 
@@ -2635,7 +2635,7 @@ button:disabled,
     width: 50% !important;
   }*/
   .tiles article h3 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
   }
 }
 
@@ -2647,7 +2647,7 @@ button:disabled,
     min-height: 0;
   }
   .tiles article h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 }
 
