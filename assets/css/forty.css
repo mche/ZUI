@@ -1578,7 +1578,7 @@ header.major {
 
 header.major >:first-child {
     margin-bottom: 0;
-    width: calc(100% + 0.5em);
+    width: calc(100%);/*+ 0.5em*/
 }
 
 header.major >:first-child:after {
@@ -2518,12 +2518,9 @@ button:disabled,
 }
 
 .tiles article h3 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-.tiles article h3 a:hover {
-    /*color: inherit !important;*/
-}
 
 .tiles article .link.primary {
     border: 0;
@@ -2567,8 +2564,12 @@ button:disabled,
     opacity: 0;
 }
 
-.tiles article h3:hover {
+.tiles article:hover h3 {
     font-weight: 500;
+}
+
+.tiles article:hover h3 a {
+    /*color: inherit !important;*/
 }
 
 .tiles article.is-transitioning {
