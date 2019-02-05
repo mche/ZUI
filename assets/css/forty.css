@@ -2476,10 +2476,10 @@ button:disabled,
 }
 
 .tiles article {
-  -moz-align-items: center;
+  /*-moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  align-items: center;*/
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
