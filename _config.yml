@@ -8,9 +8,10 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Forty Template
+title : OOO «ЗападУралИнвест» химические реагенты
+description: Производство и реализация химической продукции для нефтегазового сектора.
 author :
-  name : M Che
+  name : Михаил
   email : nil
   github : nil
   twitter : nil
