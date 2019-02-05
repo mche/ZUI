@@ -2475,6 +2475,7 @@ button:disabled,
   border-top: 0 !important;
 }
 
+
 .tiles article {
   /*-moz-align-items: center;
   -webkit-align-items: center;
@@ -2499,6 +2500,10 @@ button:disabled,
   overflow: hidden;
   position: relative;
   /*width: 40%;*/
+}
+
+.tiles article.w100 {
+  width: 100%;
 }
 
 .tiles article.w50 {
