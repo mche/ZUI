@@ -1,6 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");*/
-/*@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext');
 
 html,
 body,
@@ -2494,9 +2494,9 @@ button:disabled,
   background-repeat: no-repeat;
   background-size: cover;
   cursor: default;
-  height: 40vh;
-  max-height: 40em;
-  min-height: 23em;
+  /*height: 40vh;*/
+  max-height: 30rem;
+  min-height: 25rem;
   overflow: hidden;
   position: relative;
   /*width: 40%;*/
@@ -2528,6 +2528,8 @@ button:disabled,
 .tiles article header {
   position: relative;
   z-index: 3;
+  /*типа тень как фон боди*/
+  text-shadow: 0 0 5px #242943, 0 0 10px #242943, 0 0 15px #242943, 0 0 25px #242943;
 }
 
 .tiles article h3 {
@@ -3116,7 +3118,8 @@ body.is-preload #header.alt {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  background-image: url("/static/images/banner.jpg");
+  /*background-image: url("/static/images/banner.jpg");*/
+  background-image: url("//res.cloudinary.com/dmiwwwi6l/image/upload/v1549426460/zuinvest/banner.jpg");
   /*display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
