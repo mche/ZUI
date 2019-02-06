@@ -3668,26 +3668,26 @@ body.is-menu-visible #menu .inner {
   width: 80%;
 }
 
-@media only screen and (min-width: 1680px) {
+@media only screen and (max-width: 1680px) {
   .container {
     max-width: 1280px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
   .container {
     max-width: 980px;
   }
 }
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (max-width: 980px) {
   /*.container {
     max-width: 780px;
   }*/
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 580px) {
   .container {
     width: 100%;
   }
