@@ -3653,3 +3653,42 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   visibility: visible;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center, .center-align {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+@media only screen and (min-width: 1680px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+
+@media only screen and (min-width: 980px) {
+  /*.container {
+    max-width: 780px;
+  }*/
+}
+
+@media only screen and (min-width: 360px) {
+  .container {
+    width: 100%;
+  }
+}
