@@ -2994,6 +2994,7 @@ button:disabled,
   -webkit-animation: reveal-header 0.35s ease;
   -ms-animation: reveal-header 0.35s ease;
   animation: reveal-header 0.35s ease;
+  border-bottom: 1px solid grey;
 }
 
 #header.alt {
@@ -3664,7 +3665,7 @@ body.is-menu-visible #menu .inner {
 
 .container {
   margin: 0 auto;
-  padding: 0.5rem;
+  /*padding: 0.5rem;*/
   width: 80%;
 }
 
