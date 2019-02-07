@@ -2898,7 +2898,7 @@ button:disabled,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #ffffff;
+  background-color: transparent;
   /*color: #242943;*/
   color: #f76f91;
   display: inline-block;
@@ -2909,8 +2909,7 @@ button:disabled,
 
 #header .logo:hover strong {
   /*background-color: #f76f91;*/
-  background-color: #242943;
-  color: #f76f91;
+  background-color: #fff;
 }
 
 #header .logo:active strong {
