@@ -2918,6 +2918,8 @@ button:disabled,
 
 #header .logo + span {
   font-size: smaller;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
 }
 
 #header nav {
@@ -3221,9 +3223,12 @@ body.is-preload #header.alt {
 }
 
 #banner > .inner .content p {
-  font-size: 0.7em;
+  /*font-size: 0.7em;
   font-weight: 600;
   letter-spacing: 0.25em;
+  */
+  font-weight: 400;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
