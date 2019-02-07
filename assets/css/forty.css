@@ -249,7 +249,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #f76f91 !important;
+  color: #f76f91/* !important*/;
 }
 
 a:active {
@@ -2899,7 +2899,8 @@ button:disabled,
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: #ffffff;
-  color: #242943;
+  /*color: #242943;*/
+  color: #f76f91;
   display: inline-block;
   line-height: 1.65em;
   margin-right: 0.325em;
@@ -2907,7 +2908,9 @@ button:disabled,
 }
 
 #header .logo:hover strong {
-  background-color: #f76f91;
+  /*background-color: #f76f91;*/
+  background-color: #242943;
+  color: #f76f91;
 }
 
 #header .logo:active strong {
@@ -3671,7 +3674,7 @@ body.is-menu-visible #menu .inner {
 
 .container {
   margin: 0 auto;
-  /*padding: 0.5rem;*/
+  padding: 0.5rem;
   width: 80%;
 }
 
