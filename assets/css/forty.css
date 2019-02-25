@@ -2891,6 +2891,7 @@ button:disabled,
   height: inherit;
   line-height: inherit;
   padding: 0 1.5em;
+  white-space: nowrap;
 }
 
 #header .logo strong {
@@ -2920,6 +2921,8 @@ button:disabled,
   font-size: smaller;
   letter-spacing: 0.1rem;
   font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #header nav {
@@ -3078,6 +3081,9 @@ body.is-preload #header.alt {
   #header .logo {
     padding: 0 1em;
   }
+  #header .logo + span {
+    display: none;
+  }
   #header nav a {
     padding: 0 0.5em;
   }
@@ -3233,7 +3239,7 @@ body.is-preload #header.alt {
 }
 
 #banner.major {
-  /*height: 75vh;*/
+  height: 100vh;
   /*min-height: 30em;
   max-height: 50em;*/
 }
