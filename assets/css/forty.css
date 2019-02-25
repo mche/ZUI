@@ -3104,6 +3104,9 @@ body.is-preload #header.alt {
   #header nav a[href="#menu"]:last-child:after {
     right: 1.5em;
   }
+  #banner ul.actions {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
