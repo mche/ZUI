@@ -3294,7 +3294,7 @@ body.is-preload #banner > .inner {
 
 @media screen and (max-width: 1280px) {
   #banner {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
   }
 }
 
