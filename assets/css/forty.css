@@ -2529,6 +2529,8 @@ button:disabled,
 .tiles article header {
   position: relative;
   z-index: 3;
+  text-align: center;
+  width: 100%;
   /*типа тень как фон боди*/
   text-shadow: 0 0 5px #242943, 0 0 10px #242943, 0 0 15px #242943, 0 0 25px #242943;
 }
@@ -2581,7 +2583,7 @@ button:disabled,
 }
 
 .tiles article:hover h3 {
-  font-weight: 500;
+  ///font-weight: 500;
 }
 
 .tiles article:hover h3 a {
