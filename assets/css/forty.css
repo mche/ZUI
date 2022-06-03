@@ -2583,7 +2583,7 @@ button:disabled,
 }
 
 .tiles article:hover h3 {
-  ///font-weight: 500;
+  font-weight: 500;
 }
 
 .tiles article:hover h3 a {
