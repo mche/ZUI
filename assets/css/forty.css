@@ -3137,9 +3137,9 @@ body.is-preload #header.alt {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  /*background-image: url("/static/images/banner.jpg");*/
+  background-image: url("/static/images/banner.jpg");
   /*background-image: url("//res.cloudinary.com/dmiwwwi6l/image/upload/v1549520562/zuinvest/banner.jpg");*/
-  background-image: url("//95.163.87.167/static/zuinvest/banner.jpg");
+  /*background-image: url("//95.163.87.167/static/zuinvest/banner.jpg");*/
   /*display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
